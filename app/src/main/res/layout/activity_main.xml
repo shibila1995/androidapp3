@@ -1,7 +1,52 @@
 <LinearLayout
         android:layout_height="match_parent"
-              android:layout_width="match_parent"
-        android:background="#ad3e0a"
-              xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_width="match_parent"
+        android:background="@drawable/background2"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:textSize="30dp"
+            android:textColor="#1F1D1D"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="My app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/uname"
+            android:paddingTop="40dp"
+            android:textColorHint="#686c6c"
+            android:hint="username"
+            android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--<TextView-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:text="Password"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <EditText
+            android:textColorHint="#686c6c"
+            android:hint="password"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    <Button
+            android:onClick="loginevent"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Register"
+            android:onClick="regevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>

@@ -1,0 +1,64 @@
+<ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:orientation="vertical"
+    android:background="@drawable/background2">
+        <EditText
+        android:layout_margin="20dp"
+        android:hint="enter your name"
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_margin="20dp"
+                android:hint="enter phone number"
+                android:id="@+id/phone"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_margin="20dp"
+                android:hint="enter your email"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_margin="20dp"
+                android:hint="username"
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_margin="20dp"
+                android:hint="password"
+                android:id="@+id/txtpass"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_margin="20dp"
+                android:hint="confirm password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:onClick="regevent"
+                android:text="Register"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:onClick="backhome"
+                android:text="Backto login"
+                android:background="@drawable/buttonstyle"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
